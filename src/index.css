@@ -1,0 +1,115 @@
+*{
+margin:0;
+padding:0;
+}
+
+.nav{
+  position: relative;
+  left:70px;
+  height: 55px;
+  width: 550px;
+  background: #F55A5A;
+}
+
+.nav--title{
+    position: absolute;
+    top:15px;
+    left:250px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.nav--logo{
+  position: inherit;
+  height: 24px;
+  width: 24px;
+  left: 210px;
+  top: 15px;
+}
+.cards-list{
+    position: absolute;
+    left: 105px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    top:105px;
+    gap: 45px;
+}
+
+.card{
+    height: 168px;
+    width: 470px;
+    display: flex;
+}
+
+.card--loc {
+    display: flex;
+    position: relative;
+    bottom:15px;
+}
+
+.card--loc--logo{
+    position: relative;
+    width: 7px;
+    height: 9.55px;
+    left:19px;
+    right:4px;
+}
+.card--location{
+    position:relative;
+    left:40px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    text-align: left;
+}
+
+.card--map{
+    position: relative;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    left: 70px;
+}
+.card--img {
+    height: 168px;
+    width: 125px;
+    border-radius: 5px;
+}
+.card--title{
+    position: relative;
+    top: 35px;
+    left: 19px; 
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.card--date{
+    display: flex;
+    position: relative;
+    left:19px;
+    top:30px;
+    gap:5px;
+}
+
+.card--description{
+    position: relative;
+    left:19px;
+    top:40px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
